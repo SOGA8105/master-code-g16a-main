@@ -34,11 +34,16 @@ var platillos = ['Tamal','Tacos','Enchiladas','Quesadillas','Tostadas','Garnacha
 // for(var i=0; i<platillos.length; i+=1){
 //     console.log(platillos[i]);
 // }
-for (var k=0; k<6; k++){
-    if(platillos[k] === platillos[3] || platillos[5]){
-        console.log(platillos[k]);
+// for (var k=0; k<6; k++){
+//     if(platillos[k] === platillos[3] || platillos[5]){
+//         console.log(platillos[k]);
+//     }
+// }
+//pares
+for(i=0; i<6; i++){
+    if(i%2){
+        console.log(platillos[i]);
     }
 }
-
 
     
