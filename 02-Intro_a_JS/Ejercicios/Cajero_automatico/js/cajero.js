@@ -68,3 +68,4 @@ if (nipCapturado==nipAlmacenado){
 else{
     alert("Te lo dije....tarjeta retenida");
 }
+
